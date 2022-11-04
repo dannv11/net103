@@ -1,0 +1,17 @@
+D:\BaiGiang\net103\Code\AppTinhToan\bin\Debug\net6.0-windows\AppTinhToan.exe
+D:\BaiGiang\net103\Code\AppTinhToan\bin\Debug\net6.0-windows\AppTinhToan.deps.json
+D:\BaiGiang\net103\Code\AppTinhToan\bin\Debug\net6.0-windows\AppTinhToan.runtimeconfig.json
+D:\BaiGiang\net103\Code\AppTinhToan\bin\Debug\net6.0-windows\AppTinhToan.dll
+D:\BaiGiang\net103\Code\AppTinhToan\bin\Debug\net6.0-windows\AppTinhToan.pdb
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.Form1.resources
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.csproj.GenerateResource.cache
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.AssemblyInfoInputs.cache
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.AssemblyInfo.cs
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.dll
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\refint\AppTinhToan.dll
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.pdb
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\AppTinhToan.genruntimeconfig.cache
+D:\BaiGiang\net103\Code\AppTinhToan\obj\Debug\net6.0-windows\ref\AppTinhToan.dll
