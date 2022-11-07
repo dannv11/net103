@@ -1,0 +1,17 @@
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\bin\Debug\net6.0-windows\BAI_1_3_LISTBOX.exe
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\bin\Debug\net6.0-windows\BAI_1_3_LISTBOX.deps.json
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\bin\Debug\net6.0-windows\BAI_1_3_LISTBOX.runtimeconfig.json
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\bin\Debug\net6.0-windows\BAI_1_3_LISTBOX.dll
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\bin\Debug\net6.0-windows\BAI_1_3_LISTBOX.pdb
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.Form1.resources
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.csproj.GenerateResource.cache
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.AssemblyInfoInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.AssemblyInfo.cs
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.dll
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\refint\BAI_1_3_LISTBOX.dll
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.pdb
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\BAI_1_3_LISTBOX.genruntimeconfig.cache
+D:\BaiGiang\net103\Code\BAI_1_3_LISTBOX\obj\Debug\net6.0-windows\ref\BAI_1_3_LISTBOX.dll
