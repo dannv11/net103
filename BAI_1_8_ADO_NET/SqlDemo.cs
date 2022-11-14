@@ -116,7 +116,7 @@ namespace BAI_1_8_ADO_NET
                         // lấy getString hay get[Kiểu dữ liệu] phụ thuộc vào kiểu dữ liệu của
                         // trường đó trong database
                         // Console.WriteLine($"{reader.GetString(0)} {reader.GetDecimal(1)}");
-
+                        // cách 2 truyền vào cột cần lấy (tên tương ứng với trong query)
                         Console.WriteLine($"{reader["TenSanpham"]}  {reader["Gia"]}");
                     }
                 }
