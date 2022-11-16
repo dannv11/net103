@@ -1,0 +1,13 @@
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\bin\Debug\netcoreapp3.1\QLSP_BUS.deps.json
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\bin\Debug\netcoreapp3.1\QLSP_BUS.dll
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\bin\Debug\netcoreapp3.1\QLSP_BUS.pdb
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\bin\Debug\netcoreapp3.1\QLSP_DAL.dll
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\bin\Debug\netcoreapp3.1\QLSP_DAL.pdb
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.AssemblyInfoInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.AssemblyInfo.cs
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.csproj.CopyComplete
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.dll
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_BUS\obj\Debug\netcoreapp3.1\QLSP_BUS.pdb

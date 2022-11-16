@@ -1,0 +1,10 @@
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\bin\Debug\netcoreapp3.1\QLSP_DAL.deps.json
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\bin\Debug\netcoreapp3.1\QLSP_DAL.dll
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\bin\Debug\netcoreapp3.1\QLSP_DAL.pdb
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.AssemblyInfoInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.AssemblyInfo.cs
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.dll
+D:\BaiGiang\net103\Code\BAI_1_9_THREE_LAYER\QLSP_DAL\obj\Debug\netcoreapp3.1\QLSP_DAL.pdb
