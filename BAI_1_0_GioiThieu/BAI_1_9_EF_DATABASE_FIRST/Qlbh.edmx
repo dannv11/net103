@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="QlbhModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Cungcap">
+          <Key>
+            <PropertyRef Name="CungcapID" />
+          </Key>
+          <Property Name="CungcapID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Tendaydu" Type="nvarchar" MaxLength="255" />
+          <Property Name="TenLienhe" Type="nvarchar" MaxLength="255" />
+          <Property Name="Diachi" Type="nvarchar" MaxLength="255" />
+          <Property Name="Thanhpho" Type="nvarchar" MaxLength="255" />
+          <Property Name="MaBuudien" Type="nvarchar" MaxLength="255" />
+          <Property Name="Quocgia" Type="nvarchar" MaxLength="255" />
+          <Property Name="Dienthoai" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Danhmuc">
+          <Key>
+            <PropertyRef Name="DanhmucID" />
+          </Key>
+          <Property Name="DanhmucID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenDanhMuc" Type="nvarchar" MaxLength="255" />
+          <Property Name="MoTa" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Donhang">
+          <Key>
+            <PropertyRef Name="DonhangID" />
+          </Key>
+          <Property Name="DonhangID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KhachhangID" Type="int" />
+          <Property Name="NhanvienID" Type="int" />
+          <Property Name="Ngaydathang" Type="date" />
+          <Property Name="ShipperID" Type="int" />
+        </EntityType>
+        <EntityType Name="DonhangChitiet">
+          <Key>
+            <PropertyRef Name="DonhangChitietID" />
+          </Key>
+          <Property Name="DonhangChitietID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DonhangID" Type="int" />
+          <Property Name="SanphamID" Type="int" />
+          <Property Name="Soluong" Type="int" />
+        </EntityType>
+        <EntityType Name="Khachhang">
+          <Key>
+            <PropertyRef Name="KhachhangID" />
+          </Key>
+          <Property Name="KhachhangID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="HoTen" Type="nvarchar" MaxLength="255" />
+          <Property Name="TenLienLac" Type="nvarchar" MaxLength="255" />
+          <Property Name="Diachi" Type="nvarchar" MaxLength="255" />
+          <Property Name="Thanhpho" Type="nvarchar" MaxLength="255" />
+          <Property Name="MaBuudien" Type="nvarchar" MaxLength="255" />
+          <Property Name="QuocGia" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Nhanvien">
+          <Key>
+            <PropertyRef Name="NhanviennID" />
+          </Key>
+          <Property Name="NhanviennID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Ten" Type="nvarchar" MaxLength="255" />
+          <Property Name="Ho" Type="nvarchar" MaxLength="255" />
+          <Property Name="NgaySinh" Type="date" />
+          <Property Name="Anh" Type="nvarchar" MaxLength="255" />
+          <Property Name="Ghichu" Type="text" />
+        </EntityType>
+        <EntityType Name="Sanpham">
+          <Key>
+            <PropertyRef Name="SanphamID" />
+          </Key>
+          <Property Name="SanphamID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TenSanpham" Type="nvarchar" MaxLength="255" />
+          <Property Name="CungcapID" Type="int" />
+          <Property Name="DanhmucID" Type="int" />
+          <Property Name="Donvi" Type="nvarchar" MaxLength="255" />
+          <Property Name="Gia" Type="decimal" Precision="13" Scale="2" />
+        </EntityType>
+        <EntityType Name="Shippers">
+          <Key>
+            <PropertyRef Name="ShipperID" />
+          </Key>
+          <Property Name="ShipperID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Hoten" Type="nvarchar" MaxLength="255" />
+          <Property Name="Sodienthoai" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="QlbhModelStoreContainer">
+          <EntitySet Name="Cungcap" EntityType="Self.Cungcap" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Danhmuc" EntityType="Self.Danhmuc" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Donhang" EntityType="Self.Donhang" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DonhangChitiet" EntityType="Self.DonhangChitiet" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Khachhang" EntityType="Self.Khachhang" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nhanvien" EntityType="Self.Nhanvien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Sanpham" EntityType="Self.Sanpham" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Shippers" EntityType="Self.Shippers" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="QlbhModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Cungcap">
+          <Key>
+            <PropertyRef Name="CungcapID" />
+          </Key>
+          <Property Name="CungcapID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Tendaydu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="TenLienhe" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Diachi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Thanhpho" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MaBuudien" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Quocgia" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Dienthoai" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Danhmuc">
+          <Key>
+            <PropertyRef Name="DanhmucID" />
+          </Key>
+          <Property Name="DanhmucID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenDanhMuc" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MoTa" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Donhang">
+          <Key>
+            <PropertyRef Name="DonhangID" />
+          </Key>
+          <Property Name="DonhangID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KhachhangID" Type="Int32" />
+          <Property Name="NhanvienID" Type="Int32" />
+          <Property Name="Ngaydathang" Type="DateTime" Precision="0" />
+          <Property Name="ShipperID" Type="Int32" />
+        </EntityType>
+        <EntityType Name="DonhangChitiet">
+          <Key>
+            <PropertyRef Name="DonhangChitietID" />
+          </Key>
+          <Property Name="DonhangChitietID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DonhangID" Type="Int32" />
+          <Property Name="SanphamID" Type="Int32" />
+          <Property Name="Soluong" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Khachhang">
+          <Key>
+            <PropertyRef Name="KhachhangID" />
+          </Key>
+          <Property Name="KhachhangID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="HoTen" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="TenLienLac" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Diachi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Thanhpho" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="MaBuudien" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="QuocGia" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Nhanvien">
+          <Key>
+            <PropertyRef Name="NhanviennID" />
+          </Key>
+          <Property Name="NhanviennID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Ho" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="NgaySinh" Type="DateTime" Precision="0" />
+          <Property Name="Anh" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Ghichu" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Sanpham">
+          <Key>
+            <PropertyRef Name="SanphamID" />
+          </Key>
+          <Property Name="SanphamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TenSanpham" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="CungcapID" Type="Int32" />
+          <Property Name="DanhmucID" Type="Int32" />
+          <Property Name="Donvi" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Gia" Type="Decimal" Precision="13" Scale="2" />
+        </EntityType>
+        <EntityType Name="Shipper">
+          <Key>
+            <PropertyRef Name="ShipperID" />
+          </Key>
+          <Property Name="ShipperID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Hoten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Sodienthoai" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="QlbhConnection" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Cungcaps" EntityType="Self.Cungcap" />
+          <EntitySet Name="Danhmucs" EntityType="Self.Danhmuc" />
+          <EntitySet Name="Donhangs" EntityType="Self.Donhang" />
+          <EntitySet Name="DonhangChitiets" EntityType="Self.DonhangChitiet" />
+          <EntitySet Name="Khachhangs" EntityType="Self.Khachhang" />
+          <EntitySet Name="Nhanviens" EntityType="Self.Nhanvien" />
+          <EntitySet Name="Sanphams" EntityType="Self.Sanpham" />
+          <EntitySet Name="Shippers" EntityType="Self.Shipper" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="QlbhModelStoreContainer" CdmEntityContainer="QlbhConnection">
+          <EntitySetMapping Name="Cungcaps">
+            <EntityTypeMapping TypeName="QlbhModel.Cungcap">
+              <MappingFragment StoreEntitySet="Cungcap">
+                <ScalarProperty Name="CungcapID" ColumnName="CungcapID" />
+                <ScalarProperty Name="Tendaydu" ColumnName="Tendaydu" />
+                <ScalarProperty Name="TenLienhe" ColumnName="TenLienhe" />
+                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+                <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+                <ScalarProperty Name="MaBuudien" ColumnName="MaBuudien" />
+                <ScalarProperty Name="Quocgia" ColumnName="Quocgia" />
+                <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Danhmucs">
+            <EntityTypeMapping TypeName="QlbhModel.Danhmuc">
+              <MappingFragment StoreEntitySet="Danhmuc">
+                <ScalarProperty Name="DanhmucID" ColumnName="DanhmucID" />
+                <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+                <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Donhangs">
+            <EntityTypeMapping TypeName="QlbhModel.Donhang">
+              <MappingFragment StoreEntitySet="Donhang">
+                <ScalarProperty Name="DonhangID" ColumnName="DonhangID" />
+                <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+                <ScalarProperty Name="NhanvienID" ColumnName="NhanvienID" />
+                <ScalarProperty Name="Ngaydathang" ColumnName="Ngaydathang" />
+                <ScalarProperty Name="ShipperID" ColumnName="ShipperID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DonhangChitiets">
+            <EntityTypeMapping TypeName="QlbhModel.DonhangChitiet">
+              <MappingFragment StoreEntitySet="DonhangChitiet">
+                <ScalarProperty Name="DonhangChitietID" ColumnName="DonhangChitietID" />
+                <ScalarProperty Name="DonhangID" ColumnName="DonhangID" />
+                <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+                <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Khachhangs">
+            <EntityTypeMapping TypeName="QlbhModel.Khachhang">
+              <MappingFragment StoreEntitySet="Khachhang">
+                <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+                <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+                <ScalarProperty Name="TenLienLac" ColumnName="TenLienLac" />
+                <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+                <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+                <ScalarProperty Name="MaBuudien" ColumnName="MaBuudien" />
+                <ScalarProperty Name="QuocGia" ColumnName="QuocGia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nhanviens">
+            <EntityTypeMapping TypeName="QlbhModel.Nhanvien">
+              <MappingFragment StoreEntitySet="Nhanvien">
+                <ScalarProperty Name="NhanviennID" ColumnName="NhanviennID" />
+                <ScalarProperty Name="Ten" ColumnName="Ten" />
+                <ScalarProperty Name="Ho" ColumnName="Ho" />
+                <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+                <ScalarProperty Name="Anh" ColumnName="Anh" />
+                <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Sanphams">
+            <EntityTypeMapping TypeName="QlbhModel.Sanpham">
+              <MappingFragment StoreEntitySet="Sanpham">
+                <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+                <ScalarProperty Name="TenSanpham" ColumnName="TenSanpham" />
+                <ScalarProperty Name="CungcapID" ColumnName="CungcapID" />
+                <ScalarProperty Name="DanhmucID" ColumnName="DanhmucID" />
+                <ScalarProperty Name="Donvi" ColumnName="Donvi" />
+                <ScalarProperty Name="Gia" ColumnName="Gia" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Shippers">
+            <EntityTypeMapping TypeName="QlbhModel.Shipper">
+              <MappingFragment StoreEntitySet="Shippers">
+                <ScalarProperty Name="ShipperID" ColumnName="ShipperID" />
+                <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+                <ScalarProperty Name="Sodienthoai" ColumnName="Sodienthoai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

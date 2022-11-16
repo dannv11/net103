@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QlbhModelStoreContainer" CdmEntityContainer="QlbhConnection">
+    <EntitySetMapping Name="Cungcaps">
+      <EntityTypeMapping TypeName="QlbhModel.Cungcap">
+        <MappingFragment StoreEntitySet="Cungcap">
+          <ScalarProperty Name="CungcapID" ColumnName="CungcapID" />
+          <ScalarProperty Name="Tendaydu" ColumnName="Tendaydu" />
+          <ScalarProperty Name="TenLienhe" ColumnName="TenLienhe" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaBuudien" ColumnName="MaBuudien" />
+          <ScalarProperty Name="Quocgia" ColumnName="Quocgia" />
+          <ScalarProperty Name="Dienthoai" ColumnName="Dienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Danhmucs">
+      <EntityTypeMapping TypeName="QlbhModel.Danhmuc">
+        <MappingFragment StoreEntitySet="Danhmuc">
+          <ScalarProperty Name="DanhmucID" ColumnName="DanhmucID" />
+          <ScalarProperty Name="TenDanhMuc" ColumnName="TenDanhMuc" />
+          <ScalarProperty Name="MoTa" ColumnName="MoTa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Donhangs">
+      <EntityTypeMapping TypeName="QlbhModel.Donhang">
+        <MappingFragment StoreEntitySet="Donhang">
+          <ScalarProperty Name="DonhangID" ColumnName="DonhangID" />
+          <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+          <ScalarProperty Name="NhanvienID" ColumnName="NhanvienID" />
+          <ScalarProperty Name="Ngaydathang" ColumnName="Ngaydathang" />
+          <ScalarProperty Name="ShipperID" ColumnName="ShipperID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DonhangChitiets">
+      <EntityTypeMapping TypeName="QlbhModel.DonhangChitiet">
+        <MappingFragment StoreEntitySet="DonhangChitiet">
+          <ScalarProperty Name="DonhangChitietID" ColumnName="DonhangChitietID" />
+          <ScalarProperty Name="DonhangID" ColumnName="DonhangID" />
+          <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+          <ScalarProperty Name="Soluong" ColumnName="Soluong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khachhangs">
+      <EntityTypeMapping TypeName="QlbhModel.Khachhang">
+        <MappingFragment StoreEntitySet="Khachhang">
+          <ScalarProperty Name="KhachhangID" ColumnName="KhachhangID" />
+          <ScalarProperty Name="HoTen" ColumnName="HoTen" />
+          <ScalarProperty Name="TenLienLac" ColumnName="TenLienLac" />
+          <ScalarProperty Name="Diachi" ColumnName="Diachi" />
+          <ScalarProperty Name="Thanhpho" ColumnName="Thanhpho" />
+          <ScalarProperty Name="MaBuudien" ColumnName="MaBuudien" />
+          <ScalarProperty Name="QuocGia" ColumnName="QuocGia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nhanviens">
+      <EntityTypeMapping TypeName="QlbhModel.Nhanvien">
+        <MappingFragment StoreEntitySet="Nhanvien">
+          <ScalarProperty Name="NhanviennID" ColumnName="NhanviennID" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="Ho" ColumnName="Ho" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+          <ScalarProperty Name="Ghichu" ColumnName="Ghichu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sanphams">
+      <EntityTypeMapping TypeName="QlbhModel.Sanpham">
+        <MappingFragment StoreEntitySet="Sanpham">
+          <ScalarProperty Name="SanphamID" ColumnName="SanphamID" />
+          <ScalarProperty Name="TenSanpham" ColumnName="TenSanpham" />
+          <ScalarProperty Name="CungcapID" ColumnName="CungcapID" />
+          <ScalarProperty Name="DanhmucID" ColumnName="DanhmucID" />
+          <ScalarProperty Name="Donvi" ColumnName="Donvi" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shippers">
+      <EntityTypeMapping TypeName="QlbhModel.Shipper">
+        <MappingFragment StoreEntitySet="Shippers">
+          <ScalarProperty Name="ShipperID" ColumnName="ShipperID" />
+          <ScalarProperty Name="Hoten" ColumnName="Hoten" />
+          <ScalarProperty Name="Sodienthoai" ColumnName="Sodienthoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
