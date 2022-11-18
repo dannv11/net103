@@ -1,10 +1,16 @@
-﻿namespace BAI_1_0_GioiThieu
+﻿using BAI_1_0_GioiThieu.Properties;
+
+namespace BAI_1_0_GioiThieu
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            var a = new Bitmap(resources.GetObject("icon1") as Image);
+            a.SetResolution(40, 40);
+            btnCong.Image = a;
         }
 
         private void btnCong_Click(object sender, EventArgs e)

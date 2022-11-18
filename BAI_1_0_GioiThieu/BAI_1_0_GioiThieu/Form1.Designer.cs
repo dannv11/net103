@@ -58,11 +58,14 @@
             // 
             // btnCong
             // 
+            this.btnCong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCong.Location = new System.Drawing.Point(389, 389);
             this.btnCong.Name = "btnCong";
-            this.btnCong.Size = new System.Drawing.Size(75, 23);
+            this.btnCong.Size = new System.Drawing.Size(145, 43);
             this.btnCong.TabIndex = 3;
             this.btnCong.Text = "Tính";
+            this.btnCong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnCong.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCong.UseVisualStyleBackColor = true;
             this.btnCong.Click += new System.EventHandler(this.btnCong_Click);
             // 
