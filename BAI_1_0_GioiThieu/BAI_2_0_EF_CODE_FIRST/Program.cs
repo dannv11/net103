@@ -89,9 +89,20 @@ namespace BAI_2_0_EF_CODE_FIRST
 
         static void Main(string[] args)
         {
-            addLopHoc();
-            addSinhVien();
-            showData();
+            Console.OutputEncoding = Encoding.Unicode;
+            //addLopHoc();
+            //addSinhVien();
+            //showData();
+            List<SinhVien> sinhViens = new List<SinhVien>();
+            List<LopHoc> lopHocs = new List<LopHoc>();
+            using (var ctx = new LopHocContext())
+            {
+                sinhViens = ctx.sinhViens.ToList();
+              //  lopHocs = ctx.lopHocs.ToList();
+                sinhViens.ForEach(x => 
+                    { Console.WriteLine($"{x.TenDayDu} học lớp {x.LopHoc.TenLop}"); });
+            }
+            Console.ReadLine();
         }
     }
 }

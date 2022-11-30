@@ -1,0 +1,13 @@
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\BAI_2_2_EF_fLUENT_API.exe.config
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\BAI_2_2_EF_fLUENT_API.exe
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\BAI_2_2_EF_fLUENT_API.pdb
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\EntityFramework.dll
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\EntityFramework.SqlServer.dll
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\EntityFramework.xml
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\bin\Debug\EntityFramework.SqlServer.xml
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.csproj.SuggestedBindingRedirects.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.csproj.CopyComplete
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.exe
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_2_EF_fLUENT_API\obj\Debug\BAI_2_2_EF_fLUENT_API.pdb

@@ -1,0 +1,13 @@
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\BAI_2_1_EF_DATA_ANOTATION.exe.config
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\BAI_2_1_EF_DATA_ANOTATION.exe
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\BAI_2_1_EF_DATA_ANOTATION.pdb
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\EntityFramework.dll
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\EntityFramework.SqlServer.dll
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\EntityFramework.xml
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\bin\Debug\EntityFramework.SqlServer.xml
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.csproj.AssemblyReference.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.csproj.SuggestedBindingRedirects.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.csproj.CoreCompileInputs.cache
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.csproj.CopyComplete
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.exe
+D:\BaiGiang\net103\Code\BAI_1_0_GioiThieu\BAI_2_1_EF_DATA_ANOTATION\obj\Debug\BAI_2_1_EF_DATA_ANOTATION.pdb

@@ -8,7 +8,9 @@ namespace BAI_2_0_EF_CODE_FIRST.Entities
 {
     public class SinhVien
     {
-        public int SinhVienId { get; set; }
+        // Bắt buộc phải có Pk
+        // Tên của Pk phải là Id hoặc [tên Class]Id
+        public int Id { get; set; }
         public string TenDayDu { get; set; }
         public int Tuoi { get; set; }
         public string DiaChi { get; set; }
@@ -16,6 +18,6 @@ namespace BAI_2_0_EF_CODE_FIRST.Entities
 
         // Navigation properties
         public int LopHocId { get; set; }
-        public LopHoc LopHoc { get; set; }
+        public virtual LopHoc LopHoc { get; set; }
     }
 }
